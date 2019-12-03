@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shhqq.github.io/</id>
     <title>Gridea</title>
-    <updated>2019-12-03T14:39:01.985Z</updated>
+    <updated>2019-12-03T15:14:46.477Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shhqq.github.io/"/>
     <link rel="self" href="https://shhqq.github.io//atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://shhqq.github.io//images/avatar.png</logo>
     <icon>https://shhqq.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[操作系统基本知识]]></title>
+        <id>https://shhqq.github.io//post/cao-zuo-xi-tong-ji-ben-zhi-shi</id>
+        <link href="https://shhqq.github.io//post/cao-zuo-xi-tong-ji-ben-zhi-shi">
+        </link>
+        <updated>2019-12-03T14:53:15.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="简介-profile">简介 profile</h2>
+<p>操作系统基本知识，涉及软件运行过程，操作系统的作用，操作系统的特征，操作系统的架构等四方面。<br>
+The basic knowledgement of operating system consists of ** the process of software running**, <strong>the function of OS</strong>, ** the features of OS** and ** the architecture of OS**.</p>
+<h2 id="the-process-of-software-running">the process of software running</h2>
+<p>Take printing &quot;hello world&quot; as an example. Firstly, the OS checks whether the file is an executable file. Then when the file executing, it will generate Page Fault exception. Then the OS allocates physical memory to the program and load the program to the memory. When the program needs to print something to the screen(or other operations that need the OS to do), the OS calls other interface to finish the request.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://shhqq.github.io//post/hello-gridea</id>
